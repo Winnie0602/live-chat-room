@@ -1,8 +1,8 @@
 <template>
   <nav v-if="user">
     <div>
-      <p>Hey there {{ user.displayName }}</p>
-      <p class="email">Currently logged in as {{ user.email }}</p>
+      <p>您好！ {{ user.displayName }} ！</p>
+      <p class="email">您目前登入的EMAIL為： {{ user.email }}</p>
     </div>
     <button @click="handleClick">Logout</button>
   </nav>
